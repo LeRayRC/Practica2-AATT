@@ -52,7 +52,7 @@ public class Practica2{
 		System.out.println("----------------");
 		System.out.println("");
 		System.out.println("----------------");
-		System.out.println("| "+(horas+2)+" : "+minutos+" : "+segundos+" |  UTC+2 (Verano)");
+		System.out.println("| "+((horas+2)%24)+" : "+minutos+" : "+segundos+" |  UTC+2 (Verano)");
 		System.out.println("----------------");
 		/* Cerramos la conexion con el servidor*/
 		socket.close();
